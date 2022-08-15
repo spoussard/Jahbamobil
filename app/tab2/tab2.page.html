@@ -1,0 +1,268 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      <h1>Deuxième pas, une danse ?</h1>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" padding class="background">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Tab 2</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <fieldset><legend>Coordonnées:</legend>
+  <form action="" method="get" class="form-example">
+    <div class="form-example">
+      <label for="name">Nom: </label>
+      <input type="text" name="name" id="name" required>
+    </div>
+    <div class="form-example">
+      <label for="email">Email: </label>
+      <input type="email" name="email" id="email" required>
+    </div>
+    <div class="form-example">
+      <label for="name">Prénom: </label>
+      <input type="text" name="name" id="name" required>
+    </div>
+    <div class="form-example">
+      <label for="name">Ville: </label>
+      <input type="text" name="name" id="name" required>
+    </div>
+    <div class="form-example">
+      <label for="name">Département: </label>
+      <input type="text" name="name" id="name" required>
+    </div>
+    <div class="form-example">
+      <label for="name">Région: </label>
+      <input type="text" name="name" id="name" required>
+    </div>
+    <div class="form-example">
+      <label for="name">Pays: </label>
+      <input type="text" name="name" id="name" required>
+    </div>
+    <div class="form-example">
+      <label for="number">Numéro de téléphone: </label>
+      <input type="number" name="number" id="number" required>
+    </div>
+  </form>
+
+  <ion-button onclick="presentAlert()">Ajouter aux favoris</ion-button>
+  </fieldset>
+
+<section class="header-section">
+  <div class="container">
+    <header class="navbar">
+      <div class="logo">
+        <img src="../assets/photos/bg1.jpg">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="">Accueil</a></li>
+          <li><a href="">Produits</a></li>
+          <li><a href="">Apropos</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="">compte</a></li>       
+        </ul>
+        <img src="../assets/photos/cart.png" alt="cart icon" width="26px">
+      </nav>
+    </header>
+    <div class="row">
+      <div class="col-2">
+        <h1>Donnez à votre entrainement<br> un nouveau style</h1>
+        <p>Le succès n'est pas toujours une question de grandeur.<br> C'est une question de cohérence. Un travail acharné et consistant gagne du succès.</p>
+        <a href="">Explorez Maintenant &#10139;</a>
+      </div>
+      <div class="col-2">
+        <img src="../assets/photos/opm.jpg">
+      </div>
+    </div>
+  </div>
+</section>
+<!--Section des categories-->
+<section class="categories">
+  <div class="container">
+    <h2>Catégories Vedettes</h2>
+    <div class="row">
+      <div class="col-3">
+        <img src="../assets/photos/category-1.jpg" alt="">
+      </div>
+      <div class="col-3">
+        <img src="../assets/photos/category-2.jpg" alt="">
+      </div>
+      <div class="col-3">
+        <img src="../assets/photos/category-3.jpg" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+<!--Meilleurs produits-->
+<section class="featured-products">
+  <div class="container">
+    <h2>Meilleurs produits</h2>
+    <div class="row">
+      <div class="col-4">
+        <img src="../assets/photos/product-1.jpg" alt="produit 1">
+        <h3>T-shirt Puma Homme Rouge</h3>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-half-o" aria-hidden="true"></i>
+          <i class="fa fa-star-o" aria-hidden="true"></i>
+        </div>
+        <p>Prix: 15.99 euros TTC</p>
+      </div>
+      <div class="col-4">
+        <img src="../assets/photos/product-2.jpg" alt="produit 1">
+        <h3>Baskets HrX</h3>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+        </div>
+        <p>Prix: 39.99 euros TTC</p>
+      </div>
+      <div class="col-4">
+        <img src="../assets/photos/product-3.jpg" alt="produit 1">
+        <h3>Jogging Benetton Homme</h3>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-half-o" aria-hidden="true"></i>
+          <i class="fa fa-star-o" aria-hidden="true"></i>
+          <i class="fa fa-star-o" aria-hidden="true"></i>
+        </div>
+        <p>Prix: 29.99 euros TTC</p>
+      </div>
+      <div class="col-4">
+        <img src="../assets/photos/product-4.jpg" alt="produit 1">
+        <h3>Polo Puma Homme Bleu</h3>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-half-o" aria-hidden="true"></i>
+        </div>
+        <p>Prix: 19.99 euros TTC</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!--Nos derniers produits-->
+<section class="featured-products">
+  <div class="container">
+    <h2>Nos derniers produits</h2>
+    <div class="row">
+      <div class="col-4">
+        <img src="../assets/photos/product-5.jpg" alt="produit 1">
+        <h3>Baskets HrX gris clair</h3>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-half-o" aria-hidden="true"></i>
+          <i class="fa fa-star-o" aria-hidden="true"></i>
+        </div>
+        <p>Prix: 49.99 euros TTC</p>
+      </div>
+      <div class="col-4">
+        <img src="../assets/photos/product-6.jpg" alt="produit 1">
+        <h3>T-shirt Puma gris foncé</h3>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-o" aria-hidden="true"></i>
+          <i class="fa fa-star-o" aria-hidden="true"></i>
+        </div>
+        <p>Prix: 15.99 euros TTC</p>
+      </div>
+      <div class="col-4">
+        <img src="../assets/photos/product-7.jpg" alt="produit 1">
+        <h3>Chaussettes HrX Homme</h3>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-half-o" aria-hidden="true"></i>
+          <i class="fa fa-star-o" aria-hidden="true"></i>
+          <i class="fa fa-star-o" aria-hidden="true"></i>
+        </div>
+        <p>Prix: 9.99 euros TTC</p>
+      </div>
+      <div class="col-4">
+        <img src="../assets/photos/product-8.jpg" alt="produit 1">
+        <h3>Montre Fossil Homme Noir</h3>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+        </div>
+        <p>Prix: 79.99 euros TTC</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-4">
+        <img src="../assets/photos/product-9.jpg" alt="produit 1">
+        <h3>Montre Roadster Homme Gris foncé</h3>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-half-o" aria-hidden="true"></i>
+        </div>
+        <p>Prix: 69.99 euros TTC</p>
+      </div>
+      <div class="col-4">
+        <img src="../assets/photos/product-10.jpg" alt="produit 1">
+        <h3>Baskets Roadster Homme Noir</h3>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-o" aria-hidden="true"></i>
+          <i class="fa fa-star-o" aria-hidden="true"></i>
+        </div>
+        <p>Prix: 39.99 euros TTC</p>
+      </div>
+      <div class="col-4">
+        <img src="../assets/photos/product-11.jpg" alt="produit 1">
+        <h3>Baskets Roadster Homme Gris</h3>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-half-o" aria-hidden="true"></i>
+          <i class="fa fa-star-o" aria-hidden="true"></i>
+          <i class="fa fa-star-o" aria-hidden="true"></i>
+        </div>
+        <p>Prix: 29.99 euros TTC</p>
+      </div>
+      <div class="col-4">
+        <img src="../assets/photos/product-12.jpg" alt="produit 1">
+        <h3>Jogging Nike Homme Noir</h3>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-half-o" aria-hidden="true"></i>
+        </div>
+        <p>Prix: 59.99 euros TTC</p>
+      </div>
+    </div>
+  </div>
+</section>
+   
+   
+
+  
+  
+</ion-content>

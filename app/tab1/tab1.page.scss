@@ -1,0 +1,42 @@
+
+p{
+    text-align : justify;
+    text-shadow: #FC0 1px 0 10px;
+    font-family: "snell roundhand", "cursive";
+    font-style: italic;
+}
+
+h1{
+    font-family: "snell roundhand", "cursive";
+    font-style: italic;
+    color: #a89331;
+}
+
+h2{
+    text-align : center;
+    border: ridge #FC0;
+    border-radius: 10px 100px / 50px 100px;
+    font-family: "snell roundhand", "cursive";
+}
+
+ion-title{
+    text-align : center;
+    border: thick double #a89331;
+    border-radius: 10px;
+    background-image: url("../../assets/photos/taverne.jpg");
+}
+
+ion-content.background{
+    --background: url(../../assets/photos/parchemin.jpg) 0 0/100% 100% no-repeat;
+}
+
+.soft{
+    font-family: "snell roundhand", "cursive";
+    font-style: italic; 
+    text-align : center;
+}
+
+a{
+    color: black;
+    text-shadow: #FC0 1px 0 10px;
+}

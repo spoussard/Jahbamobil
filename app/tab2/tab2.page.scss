@@ -1,0 +1,159 @@
+ion-title{
+    text-align : center;
+    border: thick double #a89331;
+    border-radius: 10px;
+    background-image: url("../../assets/photos/book.jpg");
+}
+
+h1{
+    font-family: "snell roundhand";
+    font-style: italic;
+    color: #a89331;
+}
+
+ion-content.background{
+    --background: url(../../assets/photos/parchemin3.jpg) 0 0/100% 100% no-repeat;
+}
+
+form.form-example {
+    display: table;
+    padding-top: 20px;
+}
+
+div.form-example {
+    display: table-row;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+    color: #fff;
+    font-family: "snell roundhand";
+    font-style: italic;
+}
+
+ion-button{
+    margin-left: 150px;
+}
+.logo{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 145px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline;
+    margin-right: 8px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #a89331;
+
+}
+.container{
+    max-width: 1200px;
+    margin: 20px auto;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 img{
+    width: 100%;
+    padding: 30px 0;
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.col-2 a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-image: url("../../assets/photos/taverne.jpg");
+    color: #a89331;
+    border-radius: 30px;
+    margin-top: 25px;
+    transition: 0.5s;
+}
+.col-2 a:hover{
+    background-image: url("../../assets/photos/unnamed.jpg");
+}
+p{
+    color: #555;
+    font-family: "snell roundhand";
+}
+.header-section{
+    margin-top: -20px;
+    background: radial-gradient(#fff,#eaf2fb);
+}
+/*Style de la section categories*/
+.categories{
+    margin: 70px 0;
+}
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin: auto;
+}
+.col-3 img{
+    width: 100%;
+    transition: transform 0.3s;
+}
+.col-3 img:hover{
+    transform: translateY(-10px);
+}
+.container h2{
+    text-align: center;
+    font-size: 1.8rem;
+    color: #444;
+    font-family: "snell roundhand";
+    font-style: italic;
+    margin: 50px 0;
+}
+/*Section des meilleurs produits*/
+.col-4{
+    flex-basis: 25%;
+    min-width: 200px;
+    padding: 15px;
+    
+}
+.col-4 img{
+    width: 100%;
+    transition: transform 0.3s;
+}
+h3{
+    font-family: "snell roundhand";
+    font-style: italic;
+}
+.col-4 img:hover{
+    transform: translateY(-10px);
+}
+.rating .fa{
+    color: #a89331;
+}
+
